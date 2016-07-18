@@ -2,6 +2,9 @@
 
 Catalogue of useful python modules that run as script.
 
+## Requirements:
+* Python 3
+
 ## How to use?
 
 You have to type: `python -m <name>`.
