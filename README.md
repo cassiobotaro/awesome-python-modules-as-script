@@ -2,6 +2,12 @@
 
 Catalogue of useful python modules that run as script.
 
+## How to use?
+
+You have to type: `python -m <name>`.
+
+You can access help through: `python -m <name> --help` ou `python -m <name> -h`.
+
 Standart Library
 ----------------
 
@@ -24,3 +30,12 @@ Third party packages
 
 | Name          | Description                                    |Example|
 | ------------- |:---------------------------------------------: |------:|
+
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
