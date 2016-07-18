@@ -19,7 +19,7 @@ Standart Library
 | venv          | Create a virtual enviroment                    | python -m venv myproject                     |
 | serve         | Simple HTTP Server                             | python -m http.server 5000                   |
 | pydoc         | Consult the documentation                      | python -m pydoc -b                           |
-| timeit        | Measuring execution time of small code snippets| python -m timeit 'sorted(range(100))         |
+| timeit        | Measuring execution time of small code snippets| python -m timeit 'sorted(range(100))'        |
 | profile       | Profiling your code                            | python -m profile some_module.py             |
 | json.tool     | Validate and pretty-print JSON                 | echo '{ 1.2:3.4}' \| python -m json.tool     |
 | calendar      | Pretty print a calendar                        | python -m calendar                           |
