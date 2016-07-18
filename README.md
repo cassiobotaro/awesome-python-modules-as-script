@@ -31,9 +31,9 @@ Standart Library
 Third party packages
 --------------------
 
-| Name          | Description                                    |Example|
-| ------------- |:---------------------------------------------: |------:|
-
+| Name          | Description                                    |Example                    |
+| ------------- |:---------------------------------------------: |--------------------------:|
+|pytest         |Run tests using pytest                          | python -m pytest -s tests/|
 
 ## Contributing
 
