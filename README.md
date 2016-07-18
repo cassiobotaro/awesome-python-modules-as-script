@@ -15,7 +15,7 @@ Standart Library
 ----------------
 
 | Name          | Description                                    |Example|
-| ------------- |:---------------------------------------------: |------:|
+| :------------ |:-----------------------------------------------|:------|
 | venv          | Create a virtual enviroment                    ||
 | serve         | Simple HTTP Server                             ||
 | pydoc         | Consult the documentation                      ||
@@ -32,7 +32,7 @@ Third party packages
 --------------------
 
 | Name          | Description                                    |Example                    |
-| ------------- |:---------------------------------------------: |--------------------------:|
+|:------------- |:---------------------------------------------- |:--------------------------|
 |pytest         |Run tests using pytest                          | python -m pytest -s tests/|
 
 ## Contributing
