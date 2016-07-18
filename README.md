@@ -11,7 +11,7 @@ You have to type: `python -m <name>`.
 
 You can access help through: `python -m <name> --help` ou `python -m <name> -h`.
 
-Standart Library
+Standard Library
 ----------------
 
 | Name          | Description                                    | Example                                      |
