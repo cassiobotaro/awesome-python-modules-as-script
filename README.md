@@ -31,6 +31,8 @@ Standard Library
 | pip           | Python package manager                            | python -m pip install --user requests        |
 | zipfile       | Zip operations like create, test or extract       | python -m zipfile -e zipfile.zip target      |
 | code          | Closely emulate the interactive Python interpreter| python -m code                               |
+| base64        | Encode and decode base64                          | echo 'message' | python -m base64 -e         |
+| doctest       | Run doctests in a file                            | python -m doctest myfile.py                  |
 
 Third party packages
 --------------------
