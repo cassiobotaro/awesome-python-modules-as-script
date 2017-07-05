@@ -33,6 +33,7 @@ Standard Library
 | code          | Closely emulate the interactive Python interpreter| python -m code                               |
 | base64        | Encode and decode base64                          | echo 'message' \| python -m base64 -e        |
 | doctest       | Run doctests in a file                            | python -m doctest myfile.py                  |
+| pdb           | Automatic post-mortem debugging                   | python -m pdb myscript.py                    |
 
 Third party packages
 --------------------
