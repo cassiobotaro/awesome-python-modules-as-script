@@ -34,6 +34,8 @@ Standard Library
 | base64        | Encode and decode base64                          | echo 'message' \| python -m base64 -e        |
 | doctest       | Run doctests in a file                            | python -m doctest myfile.py                  |
 | pdb           | Automatic post-mortem debugging                   | python -m pdb myscript.py                    |
+| unittest      | Run tests using unittest                          | python -m unittest .                         |
+| filecmp       | Compare two directories content                   | python -m dir_a/ dir_b                       |
 
 Third party packages
 --------------------
