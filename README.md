@@ -49,6 +49,7 @@ Standard Library
 | timeit           | Measuring execution time of small code snippets   | python -m timeit 'sorted(range(100))'           |
 | tokenize         | Show how python tokenize a file                   | python -m tokenize some_module.py               |
 | unittest         | Run tests using unittest                          | python -m unittest .                            |
+| uuid             | Print uuid                                        | python -c 'import uuid; print(uuid.uuid4())'    |
 | uu               | Encode and decode uuencode files                  | echo 'message' \| python -m uu                  |
 | venv             | Create a virtual enviroment                       | python -m venv myproject                        |
 | webbrowser       | Open a web browser                                | python -m webbrowser http://httpbin.org         |
