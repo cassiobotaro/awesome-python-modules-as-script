@@ -52,6 +52,7 @@ Standard Library
 | uu               | Encode and decode uuencode files                  | echo 'message' \| python -m uu                  |
 | venv             | Create a virtual enviroment                       | python -m venv myproject                        |
 | webbrowser       | Open a web browser                                | python -m webbrowser http://httpbin.org         |
+| zipapp           | Create an executable ZIP file from Python code    | python -m zipapp mydir -m "module:main"         |
 | zipfile          | Zip operations like create, test or extract       | python -m zipfile -e zipfile.zip target         |
 
 
