@@ -35,6 +35,7 @@ Standard Library
 | idlelib          | Launch IDLE prompt                                | python -m idlelib                               |
 | inspect          | Inspect a object.                                 | python -m inspect "collections:OrderedDict"     |
 | json.tool        | Validate and pretty-print JSON                    | echo '{ 1.2:3.4}' \| python -m json.tool        |
+| locale           | Show O.S Locale information                       | python -m locale                                |
 | mimetypes        | MIME type/extension database                      | python -m mimetypes -e application/json         |
 | pdb              | Automatic post-mortem debugging                   | python -m pdb myscript.py                       |
 | pip              | Python package manager                            | python -m pip install --user requests           |
