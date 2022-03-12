@@ -32,6 +32,7 @@ Standard Library
 | ftplib           | Simple ftp client                                 | python -m ftplib [host]                         |
 | gzip             | Compress and decompress files                     | python -m gzip [file]                           |
 | http.server      | Simple HTTP Server                                | python -m http.server 5000                      |
+| idlelib          | Launch IDLE prompt                                | python -m idlelib                               |
 | inspect          | Inspect a object.                                 | python -m inspect "collections:OrderedDict"     |
 | json.tool        | Validate and pretty-print JSON                    | echo '{ 1.2:3.4}' \| python -m json.tool        |
 | mimetypes        | MIME type/extension database                      | python -m mimetypes -e application/json         |
