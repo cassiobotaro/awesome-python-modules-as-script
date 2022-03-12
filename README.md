@@ -9,7 +9,7 @@ Catalogue of useful python modules that run as script.
 
 You have to type: `python -m <name>`.
 
-You can access help through: `python -m <name> --help` or `python -m <name> -h`.
+You can access help for some modules through: `python -m <name> --help` or `python -m <name> -h`.
 
 Standard Library
 ----------------
@@ -35,10 +35,12 @@ Standard Library
 | idlelib          | Launch IDLE prompt                                | python -m idlelib                               |
 | inspect          | Inspect a object.                                 | python -m inspect "collections:OrderedDict"     |
 | json.tool        | Validate and pretty-print JSON                    | echo '{ 1.2:3.4}' \| python -m json.tool        |
+| lib2to3          | Automated Python 2 to 3 code translation          | python -m lib2to3 -w [python file]              |
 | locale           | Show O.S Locale information                       | python -m locale                                |
 | mimetypes        | MIME type/extension database                      | python -m mimetypes -e application/json         |
 | pdb              | Automatic post-mortem debugging                   | python -m pdb myscript.py                       |
-| pip              | Python package manager                            | python -m pip install --user requests           |
+| pickle           | Display contents of the pickle files              | python -m picke [pickle files]                  |
+| pip              | Python package manager                            | python -m pip install requests                  |
 | platform         | Show current platform                             | python -m platform                              |
 | poplib           | List POP3 mailbox                                 | python -m poplib [server] [username] [password] |
 | profile          | Profiling your code                               | python -m profile some_module.py                |
@@ -66,9 +68,15 @@ Standard Library
 Third party packages
 --------------------
 
-| Name          | Description                                    |Example                    |
-|:------------- |:---------------------------------------------- |:--------------------------|
-| pytest        |Run tests using pytest                          | python -m pytest -s tests/|
+They can be installed through: `python -m pip install [module name]`.
+
+
+| Name          | Description                                     |Example                               |
+|:------------- |:----------------------------------------------- |:-------------------------------------|
+| black         | The uncompromising code formatter               | python -m black .                    |
+| flake8        | Tool For Style Guide Enforcement                | python -m flake8 path/to/code/       |
+| pytest        | Run tests using pytest                          | python -m pytest -s path/to/tests/   |
+
 
 ## Contributing
 
