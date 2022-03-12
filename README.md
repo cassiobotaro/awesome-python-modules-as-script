@@ -45,7 +45,7 @@ Standard Library
 | pyclbr           | Extract classes and methods from a module         | python -m pyclbr [module]                       |
 | pydoc            | Consult the documentation                         | python -m pydoc -b                              |
 | quopri           | Encode and decode MIME quoted-printable data      | echo 'message' \| python -m quopri              |
-| site             | List your current path                            | python -m site                                  | 
+| site             | List your current path                            | python -m site                                  |
 | smtplib          | Send a mail message(to localhost)                 | python -m smtplib                               |
 | tarfile          | Read and write tar files                          | python -m tarfile -e myfile.tar                 |
 | telnetlib        | Telnet client                                     | python -m telnetlib  towel.blinkenlights.nl     |
