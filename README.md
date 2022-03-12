@@ -9,7 +9,7 @@ Catalogue of useful python modules that run as script.
 
 You have to type: `python -m <name>`.
 
-You can access help through: `python -m <name> --help` ou `python -m <name> -h`.
+You can access help through: `python -m <name> --help` or `python -m <name> -h`.
 
 Standard Library
 ----------------
