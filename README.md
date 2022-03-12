@@ -52,6 +52,7 @@ Standard Library
 | this             | Zen of python                                     | python -m this                                  |
 | timeit           | Measuring execution time of small code snippets   | python -m timeit 'sorted(range(100))'           |
 | tokenize         | Show how python tokenize a file                   | python -m tokenize some_module.py               |
+| turtledemo       | Educational demos for turtle module               | python -m turtledemo                            |
 | unittest         | Run tests using unittest                          | python -m unittest .                            |
 | uu               | Encode and decode uuencode files                  | echo 'message' \| python -m uu                  |
 | venv             | Create a virtual enviroment                       | python -m venv myproject                        |
