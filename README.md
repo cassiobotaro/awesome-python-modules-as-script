@@ -47,6 +47,7 @@ Standard Library
 | quopri           | Encode and decode MIME quoted-printable data      | echo 'message' \| python -m quopri              |
 | site             | List your current path                            | python -m site                                  |
 | smtplib          | Send a mail message(to localhost)                 | python -m smtplib                               |
+| sysconfig        | Shows paths and Python internal variables         | python -m sysconfig                             |
 | tarfile          | Read and write tar files                          | python -m tarfile -e myfile.tar                 |
 | telnetlib        | Telnet client                                     | python -m telnetlib  towel.blinkenlights.nl     |
 | this             | Zen of python                                     | python -m this                                  |
