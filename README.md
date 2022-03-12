@@ -16,6 +16,7 @@ Standard Library
 
 | Name             | Description                                       | Example                                         |
 | :------------    |:------------------------------------------------- |:---------------------------------------------   |
+| ast              | Parse abstract syntax tree for a Python module    | python -m ast myfile.py                         |
 | asyncio          | Asyncio REPL                                      | python -m asyncio                               |
 | antigravity      | Open browser with http://xkcd.com/353             | python -m antigravity                           |
 | base64           | Encode and decode base64                          | echo 'message' \| python -m base64 -e           |
