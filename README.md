@@ -39,7 +39,7 @@ Standard Library
 | locale           | Show O.S Locale information                       | python -m locale                                |
 | mimetypes        | MIME type/extension database                      | python -m mimetypes -e application/json         |
 | pdb              | Automatic post-mortem debugging                   | python -m pdb myscript.py                       |
-| pickle           | Display contents of the pickle files              | python -m picke [pickle files]                  |
+| pickle           | Display contents of the pickle files              | python -m pickle [pickle files]                 |
 | pip              | Python package manager                            | python -m pip install requests                  |
 | platform         | Show current platform                             | python -m platform                              |
 | poplib           | List POP3 mailbox                                 | python -m poplib [server] [username] [password] |
