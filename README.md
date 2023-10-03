@@ -70,11 +70,12 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 
 They can be installed through: `python -m pip install [module name]`.
 
-| Name   | Description                       | Example                            |
-| :----- | :-------------------------------- | :--------------------------------- |
-| black  | The uncompromising code formatter | python -m black .                  |
-| flake8 | Tool For Style Guide Enforcement  | python -m flake8 path/to/code/     |
-| pytest | Run tests using pytest            | python -m pytest -s path/to/tests/ |
+| Name   | Description                              | Example                            |
+| :----- | :--------------------------------------- | :--------------------------------- |
+| black  | The uncompromising code formatter        | python -m black .                  |
+| flake8 | Tool For Style Guide Enforcement         | python -m flake8 path/to/code/     |
+| isort  | isort your imports, so you don't have to.| isort .                            |
+| pytest | Run tests using pytest                   | python -m pytest -s path/to/tests/ |
 
 ## Contributing
 
