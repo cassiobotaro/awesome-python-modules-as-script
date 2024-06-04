@@ -41,6 +41,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | mimetypes        | MIME type/extension database                       | python -m mimetypes -e application/json         |
 | pdb              | Automatic post-mortem debugging                    | python -m pdb myscript.py                       |
 | pickle           | Display contents of the pickle files               | python -m pickle [pickle files]                 |
+| pickletools      | Disassemble one or more pickle files               | python -m pickletools [pickle file]             |
 | pip              | Python package manager                             | python -m pip install requests                  |
 | platform         | Show current platform                              | python -m platform                              |
 | poplib           | List POP3 mailbox                                  | python -m poplib [server] [username] [password] |
