@@ -16,6 +16,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 
 | Name             | Description                                        | Example                                         |
 | :--------------- | :------------------------------------------------- | :---------------------------------------------- |
+| __hello__        | Hello world!                                       | python -m __hello__                             |
 | ast              | Parse abstract syntax tree for a Python module     | python -m ast myfile.py                         |
 | asyncio          | Asyncio REPL                                       | python -m asyncio                               |
 | antigravity      | Open browser with http://xkcd.com/353              | python -m antigravity                           |
