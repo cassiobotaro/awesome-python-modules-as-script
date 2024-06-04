@@ -54,6 +54,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | sqlite3          | SQLite shell                                       | python -m sqlite3                               |
 | smtplib          | Send a mail message(to localhost)                  | python -m smtplib                               |
 | sysconfig        | Shows paths and Python internal variables          | python -m sysconfig                             |
+| tabnanny         | Check file for mixed tabs & spaces                 | python -m tabnanny [python file]                |
 | tarfile          | Read and write tar files                           | python -m tarfile -e myfile.tar                 |
 | telnetlib        | Telnet client                                      | python -m telnetlib towel.blinkenlights.nl      |
 | this             | Zen of python                                      | python -m this                                  |
