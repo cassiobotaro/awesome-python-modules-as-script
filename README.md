@@ -33,6 +33,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | gzip             | Compress and decompress files                      | python -m gzip [file]                           |
 | http.server      | Simple HTTP Server                                 | python -m http.server 5000                      |
 | idlelib          | Launch IDLE prompt                                 | python -m idlelib                               |
+| imaplib          | Like using curl to read email                      | python -m imaplib [imap4 host]                  |
 | inspect          | Inspect a object.                                  | python -m inspect "collections:OrderedDict"     |
 | json.tool        | Validate and pretty-print JSON                     | echo '{ 1.2:3.4}' \| python -m json.tool        |
 | lib2to3          | Automated Python 2 to 3 code translation           | python -m lib2to3 -w [python file]              |
