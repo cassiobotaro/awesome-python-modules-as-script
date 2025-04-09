@@ -1,6 +1,6 @@
 # Awesome Python modules as script
 
-Catalogue of useful python modules that run as script.
+Catalog of functional Python modules that run as a script.
 
 ## Requirements:
 
@@ -51,6 +51,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | pyclbr           | Extract classes and methods from a module          | python -m pyclbr [module]                       |
 | pydoc            | Consult the documentation                          | python -m pydoc -b                              |
 | quopri           | Encode and decode MIME quoted-printable data       | echo 'message' \| python -m quopri              |
+| random           | Generate random values                             | python -m random -c blue yellow green           |
 | runpy            | Run a Python module as a script                    | python -m runpy __hello__                       |
 | site             | List your current path                             | python -m site                                  |
 | sqlite3          | SQLite shell                                       | python -m sqlite3                               |
