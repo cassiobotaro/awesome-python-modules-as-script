@@ -4,7 +4,7 @@ Catalogue of useful python modules that run as script.
 
 ## Requirements:
 
-- Python 3
+- Python 3.13+
 
 ## How to use?
 
@@ -58,28 +58,16 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | sysconfig        | Shows paths and Python internal variables          | python -m sysconfig                             |
 | tabnanny         | Check file for mixed tabs & spaces                 | python -m tabnanny [python file]                |
 | tarfile          | Read and write tar files                           | python -m tarfile -e myfile.tar                 |
-| telnetlib        | Telnet client                                      | python -m telnetlib towel.blinkenlights.nl      |
 | this             | Zen of python                                      | python -m this                                  |
 | timeit           | Measuring execution time of small code snippets    | python -m timeit 'sorted(range(100))'           |
 | tokenize         | Show how python tokenize a file                    | python -m tokenize some_module.py               |
 | turtledemo       | Educational demos for turtle module                | python -m turtledemo                            |
 | unittest         | Run tests using unittest                           | python -m unittest .                            |
-| uu               | Encode and decode uuencode files                   | echo 'message' \| python -m uu                  |
 | uuid             | Generate a random UUID                             | python -m uuid                                  |
 | venv             | Create a virtual enviroment                        | python -m venv myproject                        |
 | webbrowser       | Open a web browser                                 | python -m webbrowser http://httpbin.org         |
 | zipapp           | Create an executable ZIP file from Python code     | python -m zipapp mydir -m "module:main"         |
 | zipfile          | Zip operations like create, test or extract        | python -m zipfile -e zipfile.zip target         |
-
-## Third party packages
-
-They can be installed through: `python -m pip install [module name]`.
-
-| Name   | Description                       | Example                            |
-| :----- | :-------------------------------- | :--------------------------------- |
-| black  | The uncompromising code formatter | python -m black .                  |
-| flake8 | Tool For Style Guide Enforcement  | python -m flake8 path/to/code/     |
-| pytest | Run tests using pytest            | python -m pytest -s path/to/tests/ |
 
 ## Contributing
 
