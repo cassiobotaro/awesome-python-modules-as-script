@@ -56,6 +56,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | site             | List your current path                             | python -m site                                  |
 | sqlite3          | SQLite shell                                       | python -m sqlite3                               |
 | smtplib          | Send a mail message(to localhost)                  | python -m smtplib                               |
+| symtable         | Access to the compiler’s symbol tables             | python -m symtable [python file]                |
 | sysconfig        | Shows paths and Python internal variables          | python -m sysconfig                             |
 | tabnanny         | Check file for mixed tabs & spaces                 | python -m tabnanny [python file]                |
 | tarfile          | Read and write tar files                           | python -m tarfile -e myfile.tar                 |
