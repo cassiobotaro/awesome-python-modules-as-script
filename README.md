@@ -36,7 +36,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | idlelib          | Launch IDLE prompt                                 | python -m idlelib                                 |
 | imaplib          | Like using curl to read email                      | python -m imaplib [imap4 host]                    |
 | inspect          | Inspect a object.                                  | python -m inspect "collections:OrderedDict"       |
-| json.tool        | Validate and pretty-print JSON                     | echo '{ 1.2:3.4}' \| python -m json.tool          |
+| json.tool        | Validate and pretty-print JSON                     | echo '{ "key": 3.4}' \| python -m json.tool       |
 | locale           | Show O.S Locale information                        | python -m locale                                  |
 | mimetypes        | MIME type/extension database                       | python -m mimetypes -e application/json           |
 | pdb              | Automatic post-mortem debugging                    | python -m pdb myscript.py                         |
