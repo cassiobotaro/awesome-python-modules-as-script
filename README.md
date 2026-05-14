@@ -36,7 +36,8 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | idlelib          | Launch IDLE prompt                                 | python -m idlelib                                 |
 | imaplib          | Like using curl to read email                      | python -m imaplib [imap4 host]                    |
 | inspect          | Inspect a object.                                  | python -m inspect "collections:OrderedDict"       |
-| json.tool        | Validate and pretty-print JSON                     | echo '{ "key": 3.4}' \| python -m json.tool       |
+| json             | Validate and pretty-print JSON (3.14+)             | echo '{ "key": 3.4}' \| python -m json            |
+| json.tool        | Validate and pretty-print JSON (soft deprecated)   | echo '{ "key": 3.4}' \| python -m json.tool       |
 | locale           | Show O.S Locale information                        | python -m locale                                  |
 | mimetypes        | MIME type/extension database                       | python -m mimetypes -e application/json           |
 | pdb              | Automatic post-mortem debugging                    | python -m pdb myscript.py                         |
@@ -53,6 +54,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | quopri           | Encode and decode MIME quoted-printable data       | echo 'message' \| python -m quopri                |
 | random           | Generate random values                             | python -m random -c blue yellow green             |
 | runpy            | Run a Python module as a script                    | python -m runpy \_\_hello\_\_                     |
+| shlex            | Tokenize input using shell-like syntax             | echo 'echo "hi" \| grep x' \| python -m shlex     |
 | site             | List your current path                             | python -m site                                    |
 | smtplib          | Send a mail message(to localhost)                  | python -m smtplib                                 |
 | sqlite3          | SQLite shell                                       | python -m sqlite3                                 |
@@ -62,6 +64,7 @@ You can access help for some modules through: `python -m <name> --help` or `pyth
 | tarfile          | Read and write tar files                           | python -m tarfile -e myfile.tar                   |
 | this             | Zen of python                                      | python -m this                                    |
 | timeit           | Measuring execution time of small code snippets    | python -m timeit 'sorted(range(100))'             |
+| tkinter          | Open a small Tk demo window                        | python -m tkinter                                 |
 | tokenize         | Show how python tokenize a file                    | python -m tokenize some_module.py                 |
 | trace            | Trace Python program or function execution         | python -m trace --trackcalls [python file] [name] |
 | turtle           | Demo of old turtle.py                              | python -m turtle                                  |
